@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844311408754",
+    "project_id": "myfavoritecomicbook",
+    "storage_bucket": "myfavoritecomicbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844311408754:android:4000ac6ebcaec8420352eb",
+        "android_client_info": {
+          "package_name": "com.example.mycomicsmarvellist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844311408754-9cb8p8tefounsv4cqmd556gl833aqdu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3f1aThcRZSbTUTPCaccKp36L7u4RJ0lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844311408754-9cb8p8tefounsv4cqmd556gl833aqdu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
