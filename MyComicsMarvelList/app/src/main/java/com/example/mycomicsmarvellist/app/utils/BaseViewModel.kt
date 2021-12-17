@@ -50,7 +50,7 @@ open class BaseViewModel:ViewModel() {
    private fun handleException(e: Exception) {
       val errorMessage = when (e) {
          is NetworkException -> ViewModelString(
-            213213,
+            com.example.mycomicsmarvellist.R.string.error_connection,
             NetworkException()
          )
          is RepositoryException -> e.message?.let {
@@ -58,12 +58,12 @@ open class BaseViewModel:ViewModel() {
                it
             ) else null
          } ?: ViewModelString(
-            123123,
+            com.example.mycomicsmarvellist.R.string.error_repository,
             RepositoryException()
          )
          is CacheException -> return
          else -> ViewModelString(
-            123123213,
+            com.example.mycomicsmarvellist.R.string.error_other,
             Exception()
          )
       }

@@ -9,10 +9,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ApiClientBuilder {
-    const val GIT_API_URL = "https://api.github.com/"
+    const val MARVEL_API_URL = "https://gateway.marvel.com:443/v1/public/"
 
     private val baseClient = OkHttpClient()
-    private val defaultUrl = this.GIT_API_URL
+    private val defaultUrl = this.MARVEL_API_URL
     private val cacheSize = 100
 
     /**
