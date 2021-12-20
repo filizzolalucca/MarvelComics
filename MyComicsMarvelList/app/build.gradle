@@ -4,6 +4,10 @@ plugins {
     id 'kotlin-kapt'
 }
 
+//def apikeyPropertiesFile = rootProject.file("apikey.properties")
+//def apikeyProperties = new Properties()
+//apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
+
 android {
     compileSdk 31
 
@@ -14,7 +18,8 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
     }
     dataBinding{
         enabled = true
